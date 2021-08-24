@@ -1,0 +1,152 @@
+./unit_tests/unit_test_validate_columns.txt
+Enter the number of rounds you need to find Waldo (0 to quit; 10 max):      1  2  3  4  5  6  7  8  9  10
+ 1   *  *  *  *  *  *  *  *  *  * 
+ 2   *  *  *  *  *  *  *  *  *  * 
+ 3   *  *  *  *  *  *  *  *  *  * 
+ 4   *  *  *  *  *  *  *  *  *  * 
+ 5   *  *  *  *  *  *  *  *  *  * 
+ 6   *  *  *  *  *  *  *  *  *  * 
+ 7   *  *  *  *  *  *  *  *  *  * 
+ 8   *  *  *  *  *  *  *  *  *  * 
+ 9   *  *  *  *  *  *  *  *  *  * 
+10   *  *  *  *  *  *  *  *  *  * 
+
+Round 1 of 3. Enter row and column (control-d to quit): Error: column must be in the range 1 to 10
+
+Round 1 of 3. Enter row and column (control-d to quit): Error: column must be in the range 1 to 10
+
+Round 1 of 3. Enter row and column (control-d to quit): Error - enter a row (int) and column (int).
+
+Round 1 of 3. Enter row and column (control-d to quit):      1  2  3  4  5  6  7  8  9  10
+ 1   *  *  *  *  *  *  *  *  *  * 
+ 2   *  *  *  *  *  *  *  *  *  * 
+ 3   *  *  *  *  *  *  *  *  *  * 
+ 4   *  *  *  *  *  *  *  *  *  * 
+ 5   *  *  *  *  *  *  *  *  *  * 
+ 6   *  *  *  *  *  *  *  *  *  * 
+ 7   *  *  *  *  *  *  *  *  *  * 
+ 8   *  *  *  *  *  *  *  *  *  * 
+ 9   *  *  *  *  *  *  *  *  *  * 
+10   m  *  *  *  *  *  *  *  *  * 
+Miss!
+
+Round 2 of 3. Enter row and column (control-d to quit):      1  2  3  4  5  6  7  8  9  10
+ 1   *  *  *  *  *  *  *  *  *  m 
+ 2   *  *  *  *  *  *  *  *  *  * 
+ 3   *  *  *  *  *  *  *  *  *  * 
+ 4   *  *  *  *  *  *  *  *  *  * 
+ 5   *  *  *  *  *  *  *  *  *  * 
+ 6   *  *  *  *  *  *  *  *  *  * 
+ 7   *  *  *  *  *  *  *  *  *  * 
+ 8   *  *  *  *  *  *  *  *  *  * 
+ 9   *  *  *  *  *  *  *  *  *  * 
+10   m  *  *  *  *  *  *  *  *  * 
+Miss!
+
+Round 3 of 3. Enter row and column (control-d to quit):      1  2  3  4  5  6  7  8  9  10
+ 1   *  *  *  *  *  *  *  *  *  m 
+ 2   *  *  *  *  *  *  *  *  *  * 
+ 3   *  *  *  *  *  *  *  *  *  * 
+ 4   *  *  *  *  *  *  *  *  *  * 
+ 5   *  *  *  *  m  *  *  *  *  * 
+ 6   *  *  *  *  *  *  *  *  *  * 
+ 7   *  *  *  *  *  *  *  *  *  * 
+ 8   *  *  *  *  *  *  *  *  *  * 
+ 9   *  *  *  *  *  *  *  *  *  * 
+10   m  *  *  *  *  *  *  *  *  * 
+Miss!
+LOST - you can't find Waldo in 3 rounds like you said.
+FAIL
+
+./unit_tests/unit_test_validate_row.txt
+Enter the number of rounds you need to find Waldo (0 to quit; 10 max):      1  2  3  4  5  6  7  8  9  10
+ 1   *  *  *  *  *  *  *  *  *  * 
+ 2   *  *  *  *  *  *  *  *  *  * 
+ 3   *  *  *  *  *  *  *  *  *  * 
+ 4   *  *  *  *  *  *  *  *  *  * 
+ 5   *  *  *  *  *  *  *  *  *  * 
+ 6   *  *  *  *  *  *  *  *  *  * 
+ 7   *  *  *  *  *  *  *  *  *  * 
+ 8   *  *  *  *  *  *  *  *  *  * 
+ 9   *  *  *  *  *  *  *  *  *  * 
+10   *  *  *  *  *  *  *  *  *  * 
+
+Round 1 of 3. Enter row and column (control-d to quit): Error: row must be in the range 1 to 10
+
+Round 1 of 3. Enter row and column (control-d to quit): Error: row must be in the range 1 to 10
+
+Round 1 of 3. Enter row and column (control-d to quit): Error - enter a row (int) and column (int).
+
+Round 1 of 3. Enter row and column (control-d to quit):      1  2  3  4  5  6  7  8  9  10
+ 1   m  *  *  *  *  *  *  *  *  * 
+ 2   *  *  *  *  *  *  *  *  *  * 
+ 3   *  *  *  *  *  *  *  *  *  * 
+ 4   *  *  *  *  *  *  *  *  *  * 
+ 5   *  *  *  *  *  *  *  *  *  * 
+ 6   *  *  *  *  *  *  *  *  *  * 
+ 7   *  *  *  *  *  *  *  *  *  * 
+ 8   *  *  *  *  *  *  *  *  *  * 
+ 9   *  *  *  *  *  *  *  *  *  * 
+10   *  *  *  *  *  *  *  *  *  * 
+Miss!
+
+Round 2 of 3. Enter row and column (control-d to quit):      1  2  3  4  5  6  7  8  9  10
+ 1   m  *  *  *  *  *  *  *  *  * 
+ 2   *  *  *  *  *  *  *  *  *  * 
+ 3   *  *  *  *  *  *  *  *  *  * 
+ 4   *  *  *  *  *  *  *  *  *  * 
+ 5   *  *  *  *  *  *  *  *  *  * 
+ 6   *  *  *  *  *  *  *  *  *  * 
+ 7   *  *  *  *  *  *  *  *  *  * 
+ 8   *  *  *  *  *  *  *  *  *  * 
+ 9   *  *  *  *  *  *  *  *  *  * 
+10   *  *  *  *  *  *  *  *  *  m 
+Miss!
+
+Round 3 of 3. Enter row and column (control-d to quit):      1  2  3  4  5  6  7  8  9  10
+ 1   m  *  *  *  *  *  *  *  *  * 
+ 2   *  *  *  *  *  *  *  *  *  * 
+ 3   *  *  *  *  *  *  *  *  *  * 
+ 4   *  *  *  *  *  *  *  *  *  * 
+ 5   *  *  *  *  m  *  *  *  *  * 
+ 6   *  *  *  *  *  *  *  *  *  * 
+ 7   *  *  *  *  *  *  *  *  *  * 
+ 8   *  *  *  *  *  *  *  *  *  * 
+ 9   *  *  *  *  *  *  *  *  *  * 
+10   *  *  *  *  *  *  *  *  *  m 
+Miss!
+LOST - you can't find Waldo in 3 rounds like you said.
+FAIL
+
+./unit_tests/unit_test_validate_win.txt
+Enter the number of rounds you need to find Waldo (0 to quit; 10 max): Error - enter number of rounds between 1 and 10
+Enter the number of rounds you need to find Waldo (0 to quit; 10 max): Error - enter number of rounds between 1 and 10
+Enter the number of rounds you need to find Waldo (0 to quit; 10 max):      1  2  3  4  5  6  7  8  9  10
+ 1   *  *  *  *  *  *  *  *  *  * 
+ 2   *  *  *  *  *  *  *  *  *  * 
+ 3   *  *  *  *  *  *  *  *  *  * 
+ 4   *  *  *  *  *  *  *  *  *  * 
+ 5   *  *  *  *  *  *  *  *  *  * 
+ 6   *  *  *  *  *  *  *  *  *  * 
+ 7   *  *  *  *  *  *  *  *  *  * 
+ 8   *  *  *  *  *  *  *  *  *  * 
+ 9   *  *  *  *  *  *  *  *  *  * 
+10   *  *  *  *  *  *  *  *  *  * 
+
+Round 1 of 1. Enter row and column (control-d to quit): Hint: 2 5
+
+Round 1 of 1. Enter row and column (control-d to quit):      1  2  3  4  5  6  7  8  9  10
+ 1   *  *  *  *  *  *  *  *  *  * 
+ 2   *  *  *  *  *  *  *  *  *  * 
+ 3   *  *  *  *  *  *  *  *  *  * 
+ 4   *  *  *  *  *  *  *  *  *  * 
+ 5   *  *  *  *  m  *  *  *  *  * 
+ 6   *  *  *  *  *  *  *  *  *  * 
+ 7   *  *  *  *  *  *  *  *  *  * 
+ 8   *  *  *  *  *  *  *  *  *  * 
+ 9   *  *  *  *  *  *  *  *  *  * 
+10   *  *  *  *  *  *  *  *  *  * 
+Miss!
+LOST - you can't find Waldo in 1 round like you said.
+FAIL
+
